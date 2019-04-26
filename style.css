@@ -1,0 +1,116 @@
+.material{
+	width: 92%;
+	border:none;
+	border-bottom: 2px solid #eee;
+	padding: 10px;
+	box-shadow: none;
+	/*display: block;*/
+}
+input.material:focus{
+	border-color: green;
+}
+.material:focus{outline: none;}
+input.material ~ label {
+	 color: #aaa;
+	 position: relative;
+	 top: -30px;
+	 font-size: 16px;
+	 left: 5px;
+	 cursor: text;
+	 -webkit-transition: all 0.2s;
+	 transition: all 0.2s;
+	 font-weight: 300;
+	 font-size: 18px;
+}
+input.material:focus ~ label, input.material:valid ~ label {
+		 font-size: 16px;
+		 top: -50px;
+		 color: green;
+		 font-size: 16px;
+}
+.box{
+	background-color: #FFF;
+	border-radius:;
+	width: 300px;
+	padding: 25px;
+	/*margin:25px;*/
+	border: none;
+	height: auto;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.login-page{
+	background-color: #f1f1f1;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn-flat{
+	padding: 8px;
+	border:none;
+	border-radius: none;
+	background-color: green;
+	color:#FFF;
+	width: 100%;
+}
+.small{
+	color: #ccc;
+	font-size: 15px;
+}
+a{
+	color: green;
+}
+.frame{
+	width:1080px;
+	height: 2000px;
+	border:4px solid #ccc;
+	margin-left:100px;
+	margin-right: 100px;
+
+}
+.parent{
+	position: relative;
+	top:0;
+	left: 0;
+}
+.image1{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+img.avatar{
+	position: absolute;
+	border-radius: 50%;
+	top:450px;
+	left:500px;
+}
+.hold{
+	position: relative;
+	top:0;
+	left: 0;
+}
+.mar{
+	width:40px;
+	height: 800px;
+	background-color: aqua;
+	margin-left: 160px;
+	position: relative;
+	top:0;
+	left: 0;
+}
+.bar{
+	width:680px;
+	height: 60px;
+	background-color: blue;
+	position: absolute;
+	top:0;
+	left:200px;
+}
+.bar1{
+	width: 680px;
+	height: 20px;
+	position: absolute;
+	top:120px;
+	left:200px;
+	background-color: pink;
+}
